@@ -1,5 +1,8 @@
 "use client";
 
+import Chart from "@/components/Chart";
+import { BarList, Card, Flex, Grid, Metric, Text, Title } from "@tremor/react";
+
 const website = [
   { name: "/home", value: 1230 },
   { name: "/contact", value: 751 },
@@ -42,5 +45,11 @@ const data = [
 ];
 
 export default function Analytics() {
-  return <main>analytics</main>;
+  return (
+    <main className="p-4 md:p-10 mx-auto max-w-7xl">
+      <Grid numItemsSm={2} numItemsLg={3} className="gap-6">
+        this
+      </Grid >
+    </main>
+  )
 }

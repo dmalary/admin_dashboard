@@ -19,5 +19,9 @@ const data = [
 ];
 
 export default function Chart() {
-  return <div>chart</div>;
+  return (
+    <div>
+      Chart here
+    </div>
+  );
 }
